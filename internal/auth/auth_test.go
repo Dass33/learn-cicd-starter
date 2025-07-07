@@ -23,7 +23,3 @@ func TestGetAPIKey(t *testing.T) {
 		t.Fatal("Key does not match")
 	}
 }
-
-func TestFailing(t *testing.T) {
-	t.Fatal("This fails always")
-}

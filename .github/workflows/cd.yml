@@ -30,4 +30,4 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v2'
 
       - name: 'upload container'
-        run: gcloud builds submit --tag europe-central2-docker.pkg.dev/notely-465213/Rnotely-ar-repo/dass33/notely:latest .
+        run: gcloud builds submit --tag europe-central2-docker.pkg.dev/notely-465213/notely-ar-repo/dass33/notely:latest .
